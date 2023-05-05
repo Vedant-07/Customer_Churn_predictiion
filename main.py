@@ -16,12 +16,12 @@ def main():
     # Define the input fields
     credit_score = st.slider('Credit Score', 0, 1000, 500)
     age = st.slider('Age', 18, 100, 30)
-    tenure = st.slider('Tenure', 0, 20, 5)
+    tenure = st.slider('Tenure', 0, 15, 5)
     balance = st.slider('Balance', 0, 250000, 50000)
     num_products = st.slider('Number of Products', 1, 4, 2)
     has_credit_card = st.selectbox('Has Credit Card', ['Yes', 'No'])
     is_active_member = st.selectbox('Is Active Member', ['Yes', 'No'])
-    estimated_salary = st.slider('Estimated Salary', 0, 500000, 100000)
+    estimated_salary = st.slider('Estimated Salary', 0, 300000, 100000)
     geography = st.selectbox('Geography', ['France', 'Germany', 'Spain'])
     gender = st.selectbox('Gender', ['Male', 'Female'])
     
